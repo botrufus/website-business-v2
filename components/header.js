@@ -1,14 +1,13 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
-import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Link from 'next/link'
 
 const navigation = [
-  { name: "HOW IT WORKS", href: "#how-it-works" },
-  { name: "OUR WORK", href: "#our-work" },
-  { name: "THE TEAM", href: "#the-team" },
-  { name: "FAQ", href: "#faq" },
+  { name: "HOW IT WORKS", href: "/#how-it-works" },
+  { name: "OUR WORK", href: "/#our-work" },
+  { name: "THE TEAM", href: "/#the-team" },
+  { name: "FAQ", href: "/#faq" },
 ];
 
 export default function Example() {
