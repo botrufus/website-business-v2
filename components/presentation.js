@@ -24,17 +24,17 @@ export default function presentation() {
 export function Member({name, tag, image}) {
   return (
     <div className="flex flex-col p-5 text-center">
-      <div className="flex bg-gray-300">
+      <div className={image ? "flex" : "flex bg-gray-300"}>
         {image ? (
           <img
             src={image}
-            className="h-13 w-13"
+            className="h-40 w-40 rounded mx-auto"
             alt={`Picture of ${name}`}
           />
         ) : (
           <svg
             xmlns="https://www.w3.org/2000/svg"
-            className="h-13 w-13"
+            className="h-40 w-40 rounded mx-auto"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
