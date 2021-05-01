@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 export default function hero() {
   return (
     <div className="py-20 bg-white font-mono mx-auto max-w-7xl px-10">
