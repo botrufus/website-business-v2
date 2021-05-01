@@ -1,8 +1,7 @@
 export default function presentation() {
   return (
-    <div className="font-mono text-black pt-20 pb-10" id="the-team">
-      <div className="max-w-7xl mx-auto">
-        <div className="flex flex-row">
+    <div className="w-full max-w-7xl font-mono text-black pt-20 pb-10 mx-auto items-center justify-center" id="the-team">
+        <div className="flex flex-col sm:flex-row">
           <div className="flex-1 p-10">
             <p className="font-semibold text-3xl font-mono">Über Uns</p>
             <p className="text-sm font-light font-mono">
@@ -18,7 +17,6 @@ export default function presentation() {
             <Member name="Matt Ronchetto" tag="Je ne parle pas allemand" />
           </div>
         </div>
-      </div>
     </div>
   );
 }
