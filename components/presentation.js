@@ -1,6 +1,6 @@
 export default function presentation() {
   return (
-    <div className="w-screen font-mono text-black pt-20 pb-10">
+    <div className="w-screen font-mono text-black pt-20 pb-10" id="the-team">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-row">
           <div className="flex-1 p-10">

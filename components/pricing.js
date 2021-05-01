@@ -1,8 +1,4 @@
-
-
 export default function pricing() {
-
-
     return (
         <div className="pt-16">
             <div className="w-full bg-gray-200 py-12">
