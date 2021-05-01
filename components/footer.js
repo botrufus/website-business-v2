@@ -20,7 +20,7 @@ export default function footer() {
                         Datenschutz
                     </p>
                     <Link href="/imprint">
-                        <p className="text-white text-right no-underline hover:underline font-mono text-xl lg:text:4xl" href="#">
+                        <p className="text-white text-right no-underline hover:underline font-mono text-xl lg:text:4xl">
                             Impressum
                         </p>
                     </Link>
