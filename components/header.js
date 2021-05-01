@@ -2,13 +2,14 @@
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import Link from 'next/link'
 
 const navigation = [
-  { name: "HOW IT WORKS", href: "#" },
-  { name: "OUR WORK", href: "#" },
-  { name: "PRICING", href: "#" },
-  { name: "THE TEAM", href: "#" },
-  { name: "FAQ", href: "#" },
+  { name: "HOW IT WORKS", href: "#how-it-works" },
+  { name: "OUR WORK", href: "#our-work" },
+  { name: "PRICING", href: "#pricing" },
+  { name: "THE TEAM", href: "#the-team" },
+  { name: "FAQ", href: "#faq" },
 ];
 
 export default function Example() {
@@ -45,13 +46,14 @@ export default function Example() {
           <ul className="list-reset lg:flex justify-center flex-1 items-center">
             {navigation.map((item) => (
               <li className="mr-3">
-                <a
-                  className="inline-block py-2 px-4 text-black font-mono hover:underline transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
-                  href={item.href}
-                  key={item.name}
-                >
-                  {item.name}
-                </a>
+                <Link href={item.href}>
+                  <a
+                    className="inline-block py-2 px-4 text-black font-mono hover:underline transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+                    key={item.name}
+                  >
+                    {item.name}
+                  </a>
+                </Link>
               </li>
             ))}
           </ul>
