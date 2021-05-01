@@ -48,6 +48,7 @@ export default function Example() {
                 <a
                   className="inline-block py-2 px-4 text-black font-mono hover:underline transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
                   href={item.href}
+                  key={item.name}
                 >
                   {item.name}
                 </a>
