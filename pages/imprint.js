@@ -12,8 +12,8 @@ export default function Imprint() {
                 Email: placeholder [at] example.com (please note: support requests to this email address will be ignored.)
             </p><br/>
             <p>
-                Represented by: Andreas Cselovszky
-                Responsible in accordance to Article 18 MStV: Andreas Cselovszky
+                Represented by: Andreas Cselovszky<br/>
+                Responsible in accordance to Article 18 MStV: Andreas Cselovszky<br/>
                 VAT identification number: DE000000000
             </p><br/>
             <p>
