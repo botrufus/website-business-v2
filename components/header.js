@@ -43,12 +43,9 @@ export default function Example() {
         >
           <ul className="list-reset lg:flex justify-center flex-1 items-center">
             {navigation.map((item) => (
-              <li className="mr-3">
+              <li className="mr-3" key={item.name}>
                 <Link href={item.href}>
-                  <a
-                    className="inline-block py-2 px-4 text-black font-mono hover:underline transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
-                    key={item.name}
-                  >
+                  <a className="inline-block py-2 px-4 text-black font-mono hover:underline transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                     {item.name}
                   </a>
                 </Link>
