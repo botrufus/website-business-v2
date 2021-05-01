@@ -11,7 +11,7 @@ export default function bodyInfo() {
         </p>
       </div>
       <div className="col-span-5"></div>
-      <div className="col-span-5 max-w-xl ml-36 border-2 p-4 border-black mb-10 transition duration-100 ease-in-out transform hover:scale-110">
+      <div className="col-span-5 max-w-xl ml-36 border-2 p-4 border-black transition duration-100 ease-in-out transform hover:scale-110">
         <h1 className="font-semibold text-3xl">Unsere Dienste</h1>
         <p className="text-sm font-light">
           Die Webseite, also die Präsentation Ihres Unternehmens im Internet,
@@ -21,7 +21,7 @@ export default function bodyInfo() {
       </div>
       <div className="border-r-2 border-black row-span-5"></div>
       <div className="row-span-5"></div>
-      <div className="col-span-5 max-w-xl ml-36 border-2 p-4 border-black mb-10 transition duration-100 ease-in-out transform hover:scale-110">
+      <div className="col-span-5 max-w-xl ml-36 border-2 p-4 border-black transition duration-100 ease-in-out transform hover:scale-110">
         <h1 className="font-semibold text-3xl">Unsere Dienste</h1>
         <p className="text-sm font-light">
           Die Webseite, also die Präsentation Ihres Unternehmens im Internet,
@@ -29,7 +29,7 @@ export default function bodyInfo() {
           sichern, bieten wir Ihnen folgende Dienstleistungen.
         </p>
       </div>
-      <div className="col-span-5 max-w-xl ml-36 border-2 p-4 border-black mb-10 transition duration-100 ease-in-out transform hover:scale-110">
+      <div className="col-span-5 max-w-xl ml-36 border-2 p-4 border-black transition duration-100 ease-in-out transform hover:scale-110">
         <h1 className="font-semibold text-3xl">Unsere Dienste</h1>
         <p className="text-sm font-light">
           Die Webseite, also die Präsentation Ihres Unternehmens im Internet,
@@ -37,7 +37,7 @@ export default function bodyInfo() {
           sichern, bieten wir Ihnen folgende Dienstleistungen.
         </p>
       </div>
-      <div className="col-span-5 max-w-xl ml-36 border-2 p-4 border-black mb-10 transition duration-100 ease-in-out transform hover:scale-110">
+      <div className="col-span-5 max-w-xl ml-36 border-2 p-4 border-black transition duration-100 ease-in-out transform hover:scale-110">
         <h1 className="font-semibold text-3xl">Unsere Dienste</h1>
         <p className="text-sm font-light">
           Die Webseite, also die Präsentation Ihres Unternehmens im Internet,
@@ -45,7 +45,7 @@ export default function bodyInfo() {
           sichern, bieten wir Ihnen folgende Dienstleistungen.
         </p>
       </div>
-      <div className="col-span-5 max-w-xl ml-36 border-2 p-4 border-black mb-10 transition duration-100 ease-in-out transform hover:scale-110">
+      <div className="col-span-5 max-w-xl ml-36 border-2 p-4 border-black transition duration-100 ease-in-out transform hover:scale-110">
         <h1 className="font-semibold text-3xl">Unsere Dienste</h1>
         <p className="text-sm font-light">
           Die Webseite, also die Präsentation Ihres Unternehmens im Internet,
