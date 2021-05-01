@@ -12,14 +12,16 @@ export default function presentation() {
               für Ihre Webseite zu bieten.
               </p>
           </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2">
             <Member name="Andreas Cselovszky" tag="Hat nen sehr großen" />
             <Member name="Cristoph Schure" tag="Hat nen sehr kleinen" />
             <Member name="Matt Ronchetto" tag="Je ne parle pas allemand" />
-            <div className="flex-1">
-              <p className="font-semibold text-3xl font-mono">Andreas Cselovszky</p>
-              <p className="text-sm font-light font-mono"> Hat nen sehr großen</p>
-            </div>
           </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export function Member({name, tag, image}) {
   return (
