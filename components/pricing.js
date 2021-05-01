@@ -18,7 +18,7 @@ export default function pricing() {
                                 <img src="https://cdn.tuk.dev/assets/calculator-img.png" alt />
                             </div>
                             <div className="xl:flex lg:flex md:flex sm:flex shadow">
-                                <div className="bg-white pt-8 pb-8 lg:mb-0 xl:mb-0 md:mb-0 sm:mb-0 mb-2 pl-6 pr-6 flex flex-col xl:w-1/3 lg:w-1/3 justify-center items-center border-r border-l border-gray-200">
+                                <div className="bg-white pt-8 pb-8 lg:mb-0 xl:mb-0 md:mb-0 sm:mb-0 mb-2 px-6 flex flex-col xl:w-1/3 lg:w-1/3 justify-center items-center border-r border-l border-gray-200">
                                     <div className="mb-6">
                                         <img src="https://cdn.tuk.dev/assets/paper-plane.png" alt />
                                     </div>
@@ -26,7 +26,7 @@ export default function pricing() {
                                     <p className="text-center text-sm text-gray-600 mb-6 font-normal w-full">Für Leute mit kleinem Dick (aka Rufus)</p>
                                     <button className="focus:outline-none bg-white transition duration-150 ease-in-out hover:bg-gray-200 rounded border border-indigo-600 text-indigo-600 px-6 py-2 text-sm">Subscribe</button>
                                 </div>
-                                <div className="bg-white pt-8 pb-8 lg:mb-0 xl:mb-0 md:mb-0 sm:mb-0 mb-2 pl-6 pr-6 flex flex-col xl:w-1/3 lg:w-1/3 justify-center items-center border-r border-l border-gray-200">
+                                <div className="bg-white pt-8 pb-8 lg:mb-0 xl:mb-0 md:mb-0 sm:mb-0 mb-2 px-6 flex flex-col xl:w-1/3 lg:w-1/3 justify-center items-center border-r border-l border-gray-200">
                                     <div className="mb-5">
                                         <img src="https://cdn.tuk.dev/assets/plane.png" alt />
                                     </div>
@@ -34,7 +34,7 @@ export default function pricing() {
                                     <p className="text-center text-sm text-gray-600 mb-6 font-normal w-full">More power for dich und dein Buizness</p>
                                     <button className="focus:outline-none bg-indigo-700 transition duration-150 ease-in-out hover:bg-indigo-600 rounded text-white px-6 py-2 text-sm border">Subscribe</button>
                                 </div>
-                                <div className="bg-white pt-8 pb-8 lg:mb-0 xl:mb-0 md:mb-0 sm:mb-0 mb-2 pl-6 pr-6 flex flex-col xl:w-1/3 lg:w-1/3 justify-center items-center border-r border-l border-gray-200">
+                                <div className="bg-white pt-8 pb-8 lg:mb-0 xl:mb-0 md:mb-0 sm:mb-0 mb-2 px-6 flex flex-col xl:w-1/3 lg:w-1/3 justify-center items-center border-r border-l border-gray-200">
                                     <div className="mb-6">
                                         <img src="https://cdn.tuk.dev/assets/start-button.png" alt />
                                     </div>
