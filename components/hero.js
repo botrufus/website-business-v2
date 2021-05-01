@@ -1,7 +1,8 @@
 import Image from "next/image";
+
 export default function hero() {
   return (
-    <div className="py-20 bg-white font-mono mx-auto max-w-7xl pl-10 pr-10">
+    <div className="py-20 bg-white font-mono mx-auto max-w-7xl px-10">
       <div className="grid grid-rows-3 grid-flow-row gap-4 grid-cols-2">
         <div className="row-span-2">
           <div className="font-extrabold text-5xl">

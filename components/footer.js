@@ -1,3 +1,4 @@
+import Link from 'next/link'
 
 export default function footer() {
     return (
@@ -19,9 +20,11 @@ export default function footer() {
                     <p className="text-white text-right no-underline hover:no_underline font-mono text-xl lg:text:4xl" href="#">
                         Datenschutz
                       </p>
-                    <p className="text-white text-right no-underline hover:no_underline font-mono text-xl lg:text:4xl" href="#">
-                        Impressum
-                      </p>
+                    <Link href="/imprint">
+                        <p className="text-white text-right no-underline hover:underline font-mono text-xl lg:text:4xl" href="#">
+                            Impressum
+                        </p>
+                    </Link>
                 </div>
             </div>
         </footer>
